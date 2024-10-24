@@ -1,0 +1,269 @@
+*{
+                margin: 0px;
+                padding: 0px;
+            }
+             header,nav,main,footer{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+            }
+                 header,footer,nav,section{
+                color: #EEEEEE;
+            }
+            header{
+                /*width: 1280px;*/
+                height: 100px;
+                background-color: #201E43;
+                font-size: 32px;
+                text-align: center;
+            }
+            nav{
+                height: 50px;
+                background-color: #134B70;
+            }
+            /*nav ul li a:link, nav ul li a:visited{
+                color: #508c9b;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: #201e43;
+            }*/
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li {
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height: auto;
+                background-color: #EEEEEE;
+            }
+            main nav{
+                width: auto;
+            }
+            section{
+                width: 70%;
+                height: auto;
+                background-color: #508C9B;
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            Footer{
+                height: 20px;
+                background-color: #201E43;
+                text-align: center;
+            }
+            p a:visited{
+                color: #201E43;
+            }
+            p a:link{
+                color: #EEEE;
+                font-weight: bolder;
+            }
+            p a:active{
+                color: orange;
+            }
+            ul li{
+                width: 70px;
+                background-color: #eeee;
+                color: "201e43";
+                padding: 10px;
+                border-radius: 10px;
+            }
+        nav li:hover, nav li a:hover{
+                background-color: #201e43;
+            color: #eeee;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #201e43;
+            }
+          
+            ul a:link, ul a:visited{
+                color: #201e43;
+               
+            }
+            ul a:hover{
+                color: #508c9b;
+                font-weight: bolder;
+            }
+            p,h2,h4 {
+                margin-bottom: 20px;
+            }
+table{
+    color: #eeee;
+    margin: 0 auto;
+	border: 2px solid #201e43;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+table th, table td{
+	padding: 5px;
+}
+.tabla1 {
+	width: 80%;
+	border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: #201E43;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color: #eeee;
+    color: #000000;
+}
+.tabla1 td {
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20px;
+}
+.tabla1 td, .tabla1 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #201e43;
+}
+#tabla1{
+	width: 150%;
+}
+
+#tabla2{
+    width: 90%;
+    border: 5px solid #201e43;
+	border-collapse: collapse;
+}
+#tabla2 thead tr th{
+    background-color: #201E43;
+    padding: 20px;
+    text-align: center;
+}
+#tabla2 td{
+    padding: 10px;
+    border: 5px solid #201e43;
+}
+#tabla2 tbody tr:nth-child(even){
+    background-color: #eeee;
+    color: #000000;
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #134B70;
+}
+
+#tabla3{
+    width: 90%;
+   padding: 10px;
+  border-collapse: collapse;
+}
+#tabla3 tr th, #tabla3 tr td{
+    border: 5px solid #134b70;
+	padding: 5px;
+}
+
+#tabla3 thead tr th{
+    background-color: #201e43;
+}
+#form3 p #enviar, #form3 #reset {
+    width: 20%;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+
+#tabla3 tbody tr{
+    background-color: #134b70;
+}
+#tabla3 tbody tr:hover{
+    background-color: #eeee;
+    color: #000000;
+}
+form  {
+    width: 50%;
+    padding: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #134B70;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+label  {
+    color: #EEEEEE;
+    font-weight: bolder;
+    width: 100%;
+    padding: 5px;
+    display: block;
+}
+input[type=text] ,   input[type=password]{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
+    color: #201E43;
+}
+input[type=submit]  {
+    display: list-item;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 30px;
+    font-weight: bolder;
+    color: #201E43;
+}
+#edad  {
+    width: 30px;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #201E43;
+    font-weight: bolder;
+}
+
+#form3 #date , #form3 #url{
+    width: auto;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+#form3 p #textarea {
+    width: 100%;
+    height: auto;
+}
+
+#select  , #form3 select{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#form3 #tel   , #form3 input[type=color] {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#form3 #color {
+    height: 25px;
+}
+#form2 #edad    {
+}
+#form3 #edad2 {
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}

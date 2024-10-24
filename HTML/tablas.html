@@ -1,0 +1,325 @@
+<html>
+    <head>
+        <title> Tablas en HTML</title>
+        <link rel="stylesheet" href="../css/style_page2.css" type="text/css">
+		
+    </head>
+    <body>
+        <header>
+            <h1>Tablas HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Formatos</a></li>
+                <li><a href="listas_css.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="../HTML/audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla simple con separación con bordes de celdas</h2>
+                <p>En esta tabla podrás encontrar el contacto de mis amigos de la Universidad, estudiantes de Diseño Gráfico en la Benemérita Universidad Autónoma de Puebla. En caso de no poder contactarme, podrás llamar a cualquiera de ellos, ya que probablemente me encuentre con alguno, sobre todo con Ale o Carlo.</p>
+                <table border="1">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Berenice</td>
+                            <td>Popoca</td>
+                            <td>López</td>
+                            <td>244-1305270</td>
+                            <td>bere_pop12@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alejandra</td>
+                            <td>Bonilla</td>
+                            <td>García</td>
+                            <td>247-1103557</td>
+                            <td>alejandra.jo@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>María Judith</td>
+                            <td>Alonso</td>
+                            <td>Florentino</td>
+                            <td>248-1951559</td>
+                            <td>ma_judith24@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Carlo</td>
+                            <td>Quintanar</td>
+                            <td>Martínez</td>
+                            <td>222-29996698</td>
+                            <td>carlo22@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Harold</td>
+                            <td>Ponce</td>
+                            <td>Cruz</td>
+                            <td>222-35142667</td>
+                            <td>harold.cruz@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Daniela</td>
+                            <td>Alegre</td>
+                            <td>Tlapa</td>
+                            <td>222-4858978</td>
+                            <td>dani.al_14@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla modificada por clase y con uso de colspan</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis ex vitae odio rutrum finibus. Nunc ac tortor est. Praesent in ornare orci. Duis pulvinar, nisi in semper bibendum, mauris diam fermentum leo, ut faucibus diam velit eget diam. Pellentesque vehicula, arcu et pellentesque fermentum, lorem leo pharetra libero, in dictum mauris leo vitae lectus. Quisque faucibus neque quam, malesuada porttitor sem vulputate vel. Sed nec mi ante. In ultricies, nisi non dignissim tristique, tellus tortor sollicitudin justo, vitae aliquet enim ligula ut magna. Interdum et malesuada famas ac ante ipsum primis in faucibus. Ut aliquet dolor eu eros posuere, aliquet vestibulum enim dapibus. Phasellus vel ante nulla. Duis euismod velit eget ipsum fringilla egetas in dapibus justo. Cras vel sapien felis.</p>
+                <table border="1" class="tabla1">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th colspan="2">Teléfono (s)</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Berenice</td>
+                            <td>Popoca</td>
+                            <td>López</td>
+                            <td>244-1305270</td>
+							<td>244-1106048</td>
+                            <td>bere_pop12@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alejandra</td>
+                            <td>Bonilla</td>
+                            <td>García</td>
+                            <td>247-1103557</td>
+							<td>222-2428554</td>
+                            <td>alejandra.jo@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>María Judith</td>
+                            <td>Alonso</td>
+                            <td>Florentino</td>
+                            <td>248-1951559</td>
+							<td>222-1562526</td>
+                            <td>ma_judith24@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Carlo</td>
+                            <td>Quintanar</td>
+                            <td>Martínez</td>
+                            <td>222-29996698</td>
+							<td></td>
+                            <td>carlo22@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Harold</td>
+                            <td>Ponce</td>
+                            <td>Cruz</td>
+                            <td>222-35142667</td>
+							<td>222-15698742</td>
+                            <td>harold.cruz@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Daniela</td>
+                            <td>Alegre</td>
+                            <td>Tlapa</td>
+                            <td>222-4858978</td>
+							<td></td>
+                            <td>dani.al_14@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Zebra</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis ex vitae odio rutrum finibus. Nunc ac tortor est. Praesent in ornare orci. Duis pulvinar, nisi in semper bibendum, mauris diam fermentum leo, ut faucibus diam velit eget diam. Pellentesque vehicula, arcu et pellentesque fermentum, lorem leo pharetra libero, in dictum mauris leo vitae lectus. Quisque faucibus neque quam, malesuada porttitor sem vulputate vel. Sed nec mi ante. In ultricies, nisi non dignissim tristique, tellus tortor sollicitudin justo, vitae aliquet enim ligula ut magna. Interdum et malesuada famas ac ante ipsum primis in faucibus. Ut aliquet dolor eu eros posuere, aliquet vestibulum enim dapibus. Phasellus vel ante nulla. Duis euismod velit eget ipsum fringilla egetas in dapibus justo. Cras vel sapien felis.</p>
+                 <table border="1" id="tabla2">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Berenice</td>
+                            <td>Popoca</td>
+                            <td>López</td>
+                            <td>244-1305270</td>
+                            <td>bere_pop12@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alejandra</td>
+                            <td>Bonilla</td>
+                            <td>García</td>
+                            <td>247-1103557</td>
+                            <td>alejandra.jo@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>María Judith</td>
+                            <td>Alonso</td>
+                            <td>Florentino</td>
+                            <td>248-1951559</td>
+                            <td>ma_judith24@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Carlo</td>
+                            <td>Quintanar</td>
+                            <td>Martínez</td>
+                            <td>222-29996698</td>
+                            <td>carlo22@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Harold</td>
+                            <td>Ponce</td>
+                            <td>Cruz</td>
+                            <td>222-35142667</td>
+                            <td>harold.cruz@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Daniela</td>
+                            <td>Alegre</td>
+                            <td>Tlapa</td>
+                            <td>222-4858978</td>
+                            <td>dani.al_14@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla Hover</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis ex vitae odio rutrum finibus. Nunc ac tortor est. Praesent in ornare orci. Duis pulvinar, nisi in semper bibendum, mauris diam fermentum leo, ut faucibus diam velit eget diam. Pellentesque vehicula, arcu et pellentesque fermentum, lorem leo pharetra libero, in dictum mauris leo vitae lectus. Quisque faucibus neque quam, malesuada porttitor sem vulputate vel. Sed nec mi ante. In ultricies, nisi non dignissim tristique, tellus tortor sollicitudin justo, vitae aliquet enim ligula ut magna. Interdum et malesuada famas ac ante ipsum primis in faucibus. Ut aliquet dolor eu eros posuere, aliquet vestibulum enim dapibus. Phasellus vel ante nulla. Duis euismod velit eget ipsum fringilla egetas in dapibus justo. Cras vel sapien felis.</p>
+                <table border="1" id="tabla3">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Berenice</td>
+                            <td>Popoca</td>
+                            <td>López</td>
+                            <td>244-1305270</td>
+                            <td>bere_pop12@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alejandra</td>
+                            <td>Bonilla</td>
+                            <td>García</td>
+                            <td>247-1103557</td>
+                            <td>alejandra.jo@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>María Judith</td>
+                            <td>Alonso</td>
+                            <td>Florentino</td>
+                            <td>248-1951559</td>
+                            <td>ma_judith24@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Carlo</td>
+                            <td>Quintanar</td>
+                            <td>Martínez</td>
+                            <td>222-29996698</td>
+                            <td>carlo22@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Harold</td>
+                            <td>Ponce</td>
+                            <td>Cruz</td>
+                            <td>222-35142667</td>
+                            <td>harold.cruz@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Daniela</td>
+                            <td>Alegre</td>
+                            <td>Tlapa</td>
+                            <td>222-4858978</td>
+                            <td>dani.al_14@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+			<section style="overflow-x: auto">
+                <h2>Tabla con overflow</h2>
+      
+                 <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Teléfono</th>
+                        <th>Email</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Berenice</td>
+                            <td>Popoca</td>
+                            <td>López</td>
+                            <td>244-1305270</td>
+                            <td>bere_pop12@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Alejandra</td>
+                            <td>Bonilla</td>
+                            <td>García</td>
+                            <td>247-1103557</td>
+                            <td>alejandra.jo@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>María Judith</td>
+                            <td>Alonso</td>
+                            <td>Florentino</td>
+                            <td>248-1951559</td>
+                            <td>ma_judith24@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Carlo</td>
+                            <td>Quintanar</td>
+                            <td>Martínez</td>
+                            <td>222-29996698</td>
+                            <td>carlo22@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Harold</td>
+                            <td>Ponce</td>
+                            <td>Cruz</td>
+                            <td>222-35142667</td>
+                            <td>harold.cruz@gmail.com</td>
+                        </tr> 
+                        <tr>
+                            <td>Daniela</td>
+                            <td>Alegre</td>
+                            <td>Tlapa</td>
+                            <td>222-4858978</td>
+                            <td>dani.al_14@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por: Berenice Popoca</h5>
+        </footer>
+    </body>
+</html>
